@@ -6,23 +6,188 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F9DEACF2F898FB2004F7D82 /* DeepinShield.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4F9DEAC32F898FB2004F7D82 /* DeepinShield.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4FD6B9442F87E976003C3DB5 /* DeviceActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6B9432F87E976003C3DB5 /* DeviceActivity.framework */; };
+		4FD6B94C2F87E976003C3DB5 /* DeepinMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4FD6B9412F87E976003C3DB5 /* DeepinMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4FD6B9582F87E9A2003C3DB5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6B9572F87E9A2003C3DB5 /* WidgetKit.framework */; };
+		4FD6B95A2F87E9A2003C3DB5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD6B9592F87E9A2003C3DB5 /* SwiftUI.framework */; };
+		4FD6B96B2F87E9A2003C3DB5 /* DeepinWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4FD6B9562F87E9A2003C3DB5 /* DeepinWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F9DEACD2F898FB2004F7D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD6B9232F87E39D003C3DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F9DEAC22F898FB2004F7D82;
+			remoteInfo = DeepinShield;
+		};
+		4FD6B94A2F87E976003C3DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD6B9232F87E39D003C3DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD6B9402F87E976003C3DB5;
+			remoteInfo = DeepinMonitor;
+		};
+		4FD6B9692F87E9A2003C3DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD6B9232F87E39D003C3DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD6B9552F87E9A2003C3DB5;
+			remoteInfo = DeepinWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F9DEAD42F898FB2004F7D82 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F9DEACF2F898FB2004F7D82 /* DeepinShield.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD6B9512F87E976003C3DB5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4FD6B94C2F87E976003C3DB5 /* DeepinMonitor.appex in Embed Foundation Extensions */,
+				4FD6B96B2F87E9A2003C3DB5 /* DeepinWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4F9DEAC32F898FB2004F7D82 /* DeepinShield.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeepinShield.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD6B92B2F87E39D003C3DB5 /* Deepin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deepin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD6B9412F87E976003C3DB5 /* DeepinMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeepinMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD6B9432F87E976003C3DB5 /* DeviceActivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeviceActivity.framework; path = System/Library/Frameworks/DeviceActivity.framework; sourceTree = SDKROOT; };
+		4FD6B9562F87E9A2003C3DB5 /* DeepinWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DeepinWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD6B9572F87E9A2003C3DB5 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4FD6B9592F87E9A2003C3DB5 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4F797C9B2F8829FF007566F1 /* Exceptions for "Deepin" folder in "Deepin" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4FD6B92A2F87E39D003C3DB5 /* Deepin */;
+		};
+		4F9DEAD32F898FB2004F7D82 /* Exceptions for "DeepinShield" folder in "DeepinShield" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4F9DEAC22F898FB2004F7D82 /* DeepinShield */;
+		};
+		4FD6B94D2F87E976003C3DB5 /* Exceptions for "DeepinMonitor" folder in "DeepinMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4FD6B9402F87E976003C3DB5 /* DeepinMonitor */;
+		};
+		4FD6B96C2F87E9A2003C3DB5 /* Exceptions for "DeepinWidget" folder in "DeepinWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4FD6B9552F87E9A2003C3DB5 /* DeepinWidgetExtension */;
+		};
+		4FD6B9762F87EA1C003C3DB5 /* Exceptions for "Deepin" folder in "DeepinMonitor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MonitoringManager.swift,
+				SharedDataManager.swift,
+			);
+			target = 4FD6B9402F87E976003C3DB5 /* DeepinMonitor */;
+		};
+		4FD6B9772F87EA1C003C3DB5 /* Exceptions for "Deepin" folder in "DeepinWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DeepinActivityAttributes.swift,
+				SharedDataManager.swift,
+			);
+			target = 4FD6B9552F87E9A2003C3DB5 /* DeepinWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		4F9DEAC42F898FB2004F7D82 /* DeepinShield */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F9DEAD32F898FB2004F7D82 /* Exceptions for "DeepinShield" folder in "DeepinShield" target */,
+			);
+			path = DeepinShield;
+			sourceTree = "<group>";
+		};
 		4FD6B92D2F87E39D003C3DB5 /* Deepin */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4F797C9B2F8829FF007566F1 /* Exceptions for "Deepin" folder in "Deepin" target */,
+				4FD6B9762F87EA1C003C3DB5 /* Exceptions for "Deepin" folder in "DeepinMonitor" target */,
+				4FD6B9772F87EA1C003C3DB5 /* Exceptions for "Deepin" folder in "DeepinWidgetExtension" target */,
+			);
 			path = Deepin;
+			sourceTree = "<group>";
+		};
+		4FD6B9452F87E976003C3DB5 /* DeepinMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4FD6B94D2F87E976003C3DB5 /* Exceptions for "DeepinMonitor" folder in "DeepinMonitor" target */,
+			);
+			path = DeepinMonitor;
+			sourceTree = "<group>";
+		};
+		4FD6B95B2F87E9A2003C3DB5 /* DeepinWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4FD6B96C2F87E9A2003C3DB5 /* Exceptions for "DeepinWidget" folder in "DeepinWidgetExtension" target */,
+			);
+			path = DeepinWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4F9DEAC02F898FB2004F7D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FD6B9282F87E39D003C3DB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD6B93E2F87E976003C3DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD6B9442F87E976003C3DB5 /* DeviceActivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD6B9532F87E9A2003C3DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD6B95A2F87E9A2003C3DB5 /* SwiftUI.framework in Frameworks */,
+				4FD6B9582F87E9A2003C3DB5 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +198,10 @@
 			isa = PBXGroup;
 			children = (
 				4FD6B92D2F87E39D003C3DB5 /* Deepin */,
+				4FD6B9452F87E976003C3DB5 /* DeepinMonitor */,
+				4FD6B95B2F87E9A2003C3DB5 /* DeepinWidget */,
+				4F9DEAC42F898FB2004F7D82 /* DeepinShield */,
+				4FD6B9422F87E976003C3DB5 /* Frameworks */,
 				4FD6B92C2F87E39D003C3DB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,13 +210,48 @@
 			isa = PBXGroup;
 			children = (
 				4FD6B92B2F87E39D003C3DB5 /* Deepin.app */,
+				4FD6B9412F87E976003C3DB5 /* DeepinMonitor.appex */,
+				4FD6B9562F87E9A2003C3DB5 /* DeepinWidgetExtension.appex */,
+				4F9DEAC32F898FB2004F7D82 /* DeepinShield.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD6B9422F87E976003C3DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FD6B9432F87E976003C3DB5 /* DeviceActivity.framework */,
+				4FD6B9572F87E9A2003C3DB5 /* WidgetKit.framework */,
+				4FD6B9592F87E9A2003C3DB5 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4F9DEAC22F898FB2004F7D82 /* DeepinShield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F9DEAD02F898FB2004F7D82 /* Build configuration list for PBXNativeTarget "DeepinShield" */;
+			buildPhases = (
+				4F9DEABF2F898FB2004F7D82 /* Sources */,
+				4F9DEAC02F898FB2004F7D82 /* Frameworks */,
+				4F9DEAC12F898FB2004F7D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4F9DEAC42F898FB2004F7D82 /* DeepinShield */,
+			);
+			name = DeepinShield;
+			packageProductDependencies = (
+			);
+			productName = DeepinShield;
+			productReference = 4F9DEAC32F898FB2004F7D82 /* DeepinShield.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		4FD6B92A2F87E39D003C3DB5 /* Deepin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FD6B9362F87E39D003C3DB5 /* Build configuration list for PBXNativeTarget "Deepin" */;
@@ -55,10 +259,15 @@
 				4FD6B9272F87E39D003C3DB5 /* Sources */,
 				4FD6B9282F87E39D003C3DB5 /* Frameworks */,
 				4FD6B9292F87E39D003C3DB5 /* Resources */,
+				4FD6B9512F87E976003C3DB5 /* Embed Foundation Extensions */,
+				4F9DEAD42F898FB2004F7D82 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4FD6B94B2F87E976003C3DB5 /* PBXTargetDependency */,
+				4FD6B96A2F87E9A2003C3DB5 /* PBXTargetDependency */,
+				4F9DEACE2F898FB2004F7D82 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				4FD6B92D2F87E39D003C3DB5 /* Deepin */,
@@ -70,6 +279,50 @@
 			productReference = 4FD6B92B2F87E39D003C3DB5 /* Deepin.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4FD6B9402F87E976003C3DB5 /* DeepinMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD6B94E2F87E976003C3DB5 /* Build configuration list for PBXNativeTarget "DeepinMonitor" */;
+			buildPhases = (
+				4FD6B93D2F87E976003C3DB5 /* Sources */,
+				4FD6B93E2F87E976003C3DB5 /* Frameworks */,
+				4FD6B93F2F87E976003C3DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4FD6B9452F87E976003C3DB5 /* DeepinMonitor */,
+			);
+			name = DeepinMonitor;
+			packageProductDependencies = (
+			);
+			productName = DeepinMonitor;
+			productReference = 4FD6B9412F87E976003C3DB5 /* DeepinMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4FD6B9552F87E9A2003C3DB5 /* DeepinWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD6B96D2F87E9A2003C3DB5 /* Build configuration list for PBXNativeTarget "DeepinWidgetExtension" */;
+			buildPhases = (
+				4FD6B9522F87E9A2003C3DB5 /* Sources */,
+				4FD6B9532F87E9A2003C3DB5 /* Frameworks */,
+				4FD6B9542F87E9A2003C3DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4FD6B95B2F87E9A2003C3DB5 /* DeepinWidget */,
+			);
+			name = DeepinWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = DeepinWidgetExtension;
+			productReference = 4FD6B9562F87E9A2003C3DB5 /* DeepinWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -80,7 +333,16 @@
 				LastSwiftUpdateCheck = 2640;
 				LastUpgradeCheck = 2640;
 				TargetAttributes = {
+					4F9DEAC22F898FB2004F7D82 = {
+						CreatedOnToolsVersion = 26.4;
+					};
 					4FD6B92A2F87E39D003C3DB5 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					4FD6B9402F87E976003C3DB5 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					4FD6B9552F87E9A2003C3DB5 = {
 						CreatedOnToolsVersion = 26.4;
 					};
 				};
@@ -100,12 +362,36 @@
 			projectRoot = "";
 			targets = (
 				4FD6B92A2F87E39D003C3DB5 /* Deepin */,
+				4FD6B9402F87E976003C3DB5 /* DeepinMonitor */,
+				4FD6B9552F87E9A2003C3DB5 /* DeepinWidgetExtension */,
+				4F9DEAC22F898FB2004F7D82 /* DeepinShield */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4F9DEAC12F898FB2004F7D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FD6B9292F87E39D003C3DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD6B93F2F87E976003C3DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD6B9542F87E9A2003C3DB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +401,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4F9DEABF2F898FB2004F7D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4FD6B9272F87E39D003C3DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD6B93D2F87E976003C3DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD6B9522F87E9A2003C3DB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -124,7 +431,83 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4F9DEACE2F898FB2004F7D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F9DEAC22F898FB2004F7D82 /* DeepinShield */;
+			targetProxy = 4F9DEACD2F898FB2004F7D82 /* PBXContainerItemProxy */;
+		};
+		4FD6B94B2F87E976003C3DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD6B9402F87E976003C3DB5 /* DeepinMonitor */;
+			targetProxy = 4FD6B94A2F87E976003C3DB5 /* PBXContainerItemProxy */;
+		};
+		4FD6B96A2F87E9A2003C3DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD6B9552F87E9A2003C3DB5 /* DeepinWidgetExtension */;
+			targetProxy = 4FD6B9692F87E9A2003C3DB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4F9DEAD12F898FB2004F7D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DeepinShield/DeepinShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F8R2447P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepinShield/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeepinShield;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hamad.Deepin.DeepinShield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F9DEAD22F898FB2004F7D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DeepinShield/DeepinShield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F8R2447P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepinShield/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeepinShield;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hamad.Deepin.DeepinShield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		4FD6B9342F87E39D003C3DB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -249,15 +632,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Deepin/Deepin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F8R2447P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Deepin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -266,6 +652,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Hamad.Deepin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -280,15 +670,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Deepin/Deepin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F8R2447P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Deepin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,8 +690,130 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Hamad.Deepin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FD6B94F2F87E976003C3DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DeepinMonitor/DeepinMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F8R2447P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepinMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeepinMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hamad.Deepin.DeepinMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FD6B9502F87E976003C3DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = DeepinMonitor/DeepinMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F8R2447P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepinMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeepinMonitor;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hamad.Deepin.DeepinMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FD6B96E2F87E9A2003C3DB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F8R2447P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepinWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeepinWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hamad.Deepin.DeepinWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FD6B96F2F87E9A2003C3DB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H8F8R2447P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeepinWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DeepinWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hamad.Deepin.DeepinWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,6 +824,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4F9DEAD02F898FB2004F7D82 /* Build configuration list for PBXNativeTarget "DeepinShield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F9DEAD12F898FB2004F7D82 /* Debug */,
+				4F9DEAD22F898FB2004F7D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4FD6B9262F87E39D003C3DB5 /* Build configuration list for PBXProject "Deepin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -323,6 +847,24 @@
 			buildConfigurations = (
 				4FD6B9372F87E39D003C3DB5 /* Debug */,
 				4FD6B9382F87E39D003C3DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD6B94E2F87E976003C3DB5 /* Build configuration list for PBXNativeTarget "DeepinMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD6B94F2F87E976003C3DB5 /* Debug */,
+				4FD6B9502F87E976003C3DB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD6B96D2F87E9A2003C3DB5 /* Build configuration list for PBXNativeTarget "DeepinWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD6B96E2F87E9A2003C3DB5 /* Debug */,
+				4FD6B96F2F87E9A2003C3DB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
