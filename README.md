@@ -1,4 +1,3 @@
-cat > README.md << 'EOF'
 # Deepin — Focus, Visualized
 
 A minimalist iOS app that transforms your screen time into a living, breathing sphere. The more you focus, the brighter it glows. The more you drift, the more it fades.
